@@ -71,6 +71,7 @@ for i in range(training_episodes):
     if i % 100 == 0: # Output number of completed episodes every 100 episodes.
         print(f"Episode: {i}")
 
+#print(q_table)
 print("Training finished.\n")
 
 """Display and evaluate agent's performance after Q-learning."""
