@@ -1,7 +1,9 @@
 import gymnasium as gym
 
 # Initialise the environment
-env = gym.make("LunarLander-v3", render_mode="human")
+#env = gym.make("LunarLander-v3", render_mode="human")
+env = gym.make("CartPole-v1", render_mode="human")
+
 
 # Reset the environment to generate the first observation
 observation, info = env.reset(seed=42)
